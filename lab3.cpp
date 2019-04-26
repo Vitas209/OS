@@ -6,7 +6,6 @@
 #include <limits.h>
 #include <signal.h>
 #include <unistd.h> 
-//LAb3
 int i = 0; 
 void* thread_func(void *arg) {
 	pthread_setcancelstate(PTHREAD_CANCEL_DISABLE, NULL);
