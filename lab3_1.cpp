@@ -4,6 +4,7 @@
 #include <time.h> 
 #include <unistd.h> 
 #define NUM_THREADS 6 
+//first
 void *thread_function(void *arg); 
 int main() { 
 int res; 

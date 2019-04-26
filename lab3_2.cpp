@@ -9,6 +9,7 @@
 #include <math.h>  
 #define SIZE_I 2 
 #define SIZE_J 2 
+
 float X[SIZE_I][SIZE_J]; 
 float S[SIZE_I][SIZE_J]; 
 int count = 0;
